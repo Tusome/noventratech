@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
-    
+
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -14,11 +14,11 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
-        "paths": {
+
+    "paths": {
       "@/*": ["./*"]
     },
+
     "plugins": [
       {
         "name": "next"
